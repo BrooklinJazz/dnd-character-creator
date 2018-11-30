@@ -1,14 +1,13 @@
-import React, { Component } from 'react';
+import React, { Fragment } from 'react';
+import CharacterForm from "components/CharacterForm"
 import './App.css';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <h1>Character Builder</h1>
-      </div>
-    );
-  }
+function App() {
+  return (
+    <Fragment>
+      <CharacterForm />
+    </Fragment>
+  )
 }
 
 export default App;
